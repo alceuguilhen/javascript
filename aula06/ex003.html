@@ -17,10 +17,12 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae amet obcaecati porro ea cumque laborum itaque dolor labore? Quisquam eveniet tenetur velit possimus veritatis provident repellat saepe nostrum sint?</p>
 
     <script>
-        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) 
-        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        var n1 = Number(prompt('Digite um número.'))
+        var n2 = Number(prompt('Digite outro número.'))
         var s = n1 + n2
-        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        alert('A soma dos valores é ' + s)
+        // number + number resulta em valor de calculo.
+        // string + string resulta em concatenação.
         // É possível também converter número para string: String(n) ou ntoString().
     </script>
 </body>
